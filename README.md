@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Dashboard Project
+
+This is a Next.js project with a dashboard that includes authentication and data fetching functionalities. The project uses TypeScript, Material-UI for the user interface, and Axios for making API requests.
+
+## Prerequisites
+
+Make sure you have the following installed on your machine:
+
+- Node.js (>= 14.x)
+- npm (>= 6.x) or yarn (>= 1.x)
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to run the project locally:
 
+### Clone the repository
+
+
+git clone https://github.com/your-username/nextjs-dashboard.git
+cd nextjs-dashboard
+### Install dependencies
+bash
+Copy code
+npm install
+
+### Start the development server
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+````
+The development server will start at http://localhost:3000.
+
+### Login to the dashboard
+Navigate to http://localhost:3000/login
+Use the following credentials to log in:
+###### Username: admin
+###### Password: admin
+
+### Project Structure
+- app/: Contains the main application code.
+
+- api/: Mock API data and functions.
+
+- components/: Reusable UI components.
+
+- context/: React context for managing global state.
+
+- hooks/: Custom React hooks.
+
+- layout/: Layout components.
+
+- pages/: Next.js pages.
+
+- theme/: Material-UI theme configuration.
+
+- types/: TypeScript type definitions.
+
+Available Scripts
+```bash
+npm run dev or yarn dev: Starts the development server.
+npm run build or yarn build: Builds the app for production.
+npm run start or yarn start: Runs the built app in production mode.
+npm run lint or yarn lint: Runs the linter.
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
